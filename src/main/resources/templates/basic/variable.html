@@ -25,7 +25,7 @@
 </ul>
 
 <h1>지역변수 - (th:with)</h1>
-<div th:with="first=${user[0]}"> <!--div컨테이너 안에서만 사용가능-->
+<div th:with="first=${userList[0]}"> <!--div컨테이너 안에서만 사용가능-->
     <p>처음 사람의 이름 : <span th:text="${first.username}"></span></p>
 </div>
 </body>
